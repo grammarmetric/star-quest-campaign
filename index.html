@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-accent="cyan">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Star quest: campaign</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Ctext y=%2718%27 font-size=%2718%27%3E%E2%AD%90%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <span class="chip" id="brandChip">Star quest &middot; campaign</span>
+    <span class="spacer"></span>
+    <button class="icon-btn" id="saveBtn" type="button" aria-label="Saving and progress"></button>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch theme"></button>
+  </div>
+
+  <div class="hud hidden" id="hud"></div>
+
+  <main id="app">
+    <p class="subprompt">Loading&hellip;</p>
+  </main>
+
+  <p class="note">
+    Twelve weeks built from one real assessment run. The
+    <a href="https://grammarmetric.github.io/star-quest-course/">study plan behind it</a>
+    explains every week; the <a href="https://grammarmetric.github.io/star-quest/">assessment itself</a>
+    is the Summit in Week 12.
+  </p>
+</div>
+
+<script src="js/icons.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/campaign.js"></script>
+<script>
+  /* icon for the save button, once Icons is available */
+  (function () {
+    var b = document.getElementById('saveBtn');
+    if (b && window.Icons) b.innerHTML = window.Icons.svg('save');
+  })();
+</script>
+</body>
+</html>

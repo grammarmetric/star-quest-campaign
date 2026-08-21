@@ -1,0 +1,80 @@
+{
+  "week": 4,
+  "quests": {
+    "w04q1": {
+      "intro": "Twelve words from the Master Class e page. Listen first, then build the word. The letter you skipped in camera was an e — this is the page about e.",
+      "items": [
+        { "id": "w04-01", "kind": "spell", "domain": "spelling", "level": 1, "say": "me",
+          "prompt": "Build the word you heard.", "word": "me", "pool": "eay" },
+        { "id": "w04-02", "kind": "spell", "domain": "spelling", "level": 2, "say": "pea",
+          "prompt": "Build the word you heard.", "word": "pea", "pool": "eaie" },
+        { "id": "w04-03", "kind": "spell", "domain": "spelling", "level": 2, "say": "see",
+          "prompt": "Build the word you heard.", "word": "see", "pool": "eeai" },
+        { "id": "w04-04", "kind": "spell", "domain": "spelling", "level": 2, "say": "key",
+          "prompt": "Build the word you heard.", "word": "key", "pool": "eyie" },
+        { "id": "w04-05", "kind": "spell", "domain": "spelling", "level": 2, "say": "baby",
+          "prompt": "Build the word you heard.", "word": "baby", "pool": "abyie" },
+        { "id": "w04-06", "kind": "spell", "domain": "spelling", "level": 2, "say": "tree",
+          "prompt": "Build the word you heard.", "word": "tree", "pool": "reeai" },
+        { "id": "w04-07", "kind": "spell", "domain": "spelling", "level": 2, "say": "eat",
+          "prompt": "Build the word you heard.", "word": "eat", "pool": "atoi" },
+        { "id": "w04-08", "kind": "spell", "domain": "spelling", "level": 2, "say": "money",
+          "prompt": "Build the word you heard.", "word": "money", "pool": "oneyia" },
+        { "id": "w04-09", "kind": "spell", "domain": "spelling", "level": 2, "say": "happy",
+          "prompt": "Build the word you heard.", "word": "happy", "pool": "appyie" },
+        { "id": "w04-10", "kind": "spell", "domain": "spelling", "level": 3, "say": "sea",
+          "prompt": "Build the word you heard.", "word": "sea", "pool": "eaee" },
+        { "id": "w04-11", "kind": "spell", "domain": "spelling", "level": 3, "say": "green",
+          "prompt": "Build the word you heard.", "word": "green", "pool": "reenai" },
+        { "id": "w04-12", "kind": "spell", "domain": "spelling", "level": 3, "say": "story",
+          "prompt": "Build the word you heard.", "word": "story", "pool": "toryie" }
+      ]
+    },
+
+    "w04q2": {
+      "intro": "Same sound, five different spellings. Which one does this word use?",
+      "items": [
+        { "id": "w04-13", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "s__ (you do this with your eyes)", "options": ["see", "sea", "sey"], "answer": "see",
+          "teach": "Both see and sea sound the same. See is the one your eyes do; the sea is water." },
+        { "id": "w04-14", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "The salty water is the…", "options": ["sea", "see", "sey"], "answer": "sea" },
+        { "id": "w04-15", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["monkey", "monkee", "monkea"], "answer": "monkey" },
+        { "id": "w04-16", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["family", "familey", "familee"], "answer": "family",
+          "teach": "Family ends in y — and its middle i is quiet, just like camera's e. Week 5 is all about that." },
+        { "id": "w04-17", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["teacher", "teecher", "teachur"], "answer": "teacher" },
+        { "id": "w04-18", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["between", "betwean", "betwene"], "answer": "between" },
+        { "id": "w04-19", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["beach", "beech", "beich"], "answer": "beach",
+          "teach": "A beach is sand by the sea. A beech is a tree. Both are real words." },
+        { "id": "w04-20", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["hungry", "hungrey", "hungree"], "answer": "hungry" }
+      ]
+    },
+
+    "w04q3": {
+      "intro": "No letters laid out, no first letter, no hint. Just the word.",
+      "items": [
+        { "id": "w04-21", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "If you enjoy taking photographs, you will need this. Which spelling?",
+          "options": ["camera", "camra", "camora", "camrea"], "answer": "camera",
+          "teach": "Cold, with the decoys back. This is the exact shape of the item from the test." },
+        { "id": "w04-22", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Spell it once more, with a nastier pile of letters.",
+          "word": "camera", "pool": "ameraopti" },
+        { "id": "w04-23", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which of these is spelt WRONG?",
+          "options": ["camra", "camera", "photo", "family"], "answer": "camra" },
+        { "id": "w04-24", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Your mother, your father, your sister — all together they are your…",
+          "word": "family", "pool": "amilyie" },
+        { "id": "w04-25", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "The person who teaches you.", "word": "teacher", "pool": "eacherio" }
+      ]
+    }
+  }
+}

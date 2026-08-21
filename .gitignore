@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+
+# Publisher's artwork: Oxford Discover 1 flashcards and Discover posters.
+# Wired in and working locally; untracked because this repo is public.
+# See README, "About the artwork". To publish anyway: git add -f assets/
+assets/

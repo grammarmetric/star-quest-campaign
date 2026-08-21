@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "title": "Star quest: campaign",
+    "weeks": 12,
+    "xpPerItem": 10,
+    "speedlessBonus": 20,
+    "bossBonus": 150,
+    "ranks": [
+      [
+        0,
+        "Explorer"
+      ],
+      [
+        400,
+        "Pathfinder"
+      ],
+      [
+        1000,
+        "Tracker"
+      ],
+      [
+        1800,
+        "Navigator"
+      ],
+      [
+        2800,
+        "Sky reader"
+      ],
+      [
+        4000,
+        "Champion"
+      ]
+    ],
+    "note": "Every week cites the same source as the 12-week plan in star-quest-course. Week 5 is the one week with no page number behind it, flagged there and here."
+  },
+  "regions": [
+    {
+      "id": 1,
+      "name": "Weather Coast",
+      "accent": "cyan",
+      "desc": "Now against this morning — listening right to the end",
+      "weeks": [
+        1,
+        2
+      ],
+      "poster": "p04",
+      "entry": "The sky here changes its mind halfway through a sentence. Listen to the end.",
+      "teacherNote": "Present tense, “now” against “this morning” — the exact trap that beat her listening run"
+    },
+    {
+      "id": 2,
+      "name": "Vowel Hollow",
+      "accent": "yellow",
+      "desc": "The spelling log, vowel teams, and the quiet middle syllable",
+      "weeks": [
+        3,
+        4,
+        5
+      ],
+      "poster": "p01",
+      "entry": "Some vowels hide. You cannot hear them, and they are still there.",
+      "teacherNote": "The spelling log, vowel teams, and the quiet middle syllable that turned camera into camroa"
+    },
+    {
+      "id": 3,
+      "name": "Story Marsh",
+      "accent": "magenta",
+      "desc": "Opposites, and signs that mean the opposite of the sentence",
+      "weeks": [
+        6,
+        7
+      ],
+      "poster": "p07",
+      "entry": "Read the sign, not the situation. A shop with a door can still be closed.",
+      "teacherNote": "Opposites, and signs that mean the opposite of what the sentence said"
+    },
+    {
+      "id": 4,
+      "name": "Ceiling Peak",
+      "accent": "orange",
+      "desc": "Push every skill past the point where the test ran out of questions",
+      "weeks": [
+        8,
+        9,
+        10
+      ],
+      "poster": "p08",
+      "entry": "Nobody found the top of this one last time. Let us go and look.",
+      "teacherNote": "Push every skill past the point where the test simply ran out of questions"
+    },
+    {
+      "id": 5,
+      "name": "The Summit",
+      "accent": null,
+      "desc": "All four skills at once — the real paper, then the real test again",
+      "weeks": [
+        11,
+        12
+      ],
+      "poster": "chart",
+      "entry": "Everything, together, one more time.",
+      "teacherNote": "All four skills at once — the real paper, then the real test again"
+    }
+  ],
+  "weeks": [
+    {
+      "n": 1,
+      "region": 1,
+      "title": "Weather, seasons, and the word “now”",
+      "source": "Oxford Discover 1, Unit 7 — “The Four Seasons” (p.66)",
+      "why": "Unit 7's listening words are literally weather, cloudy, sunny, windy, snowy, rainy, and its grammar point is Simple Present with It. It is the closest thing in the book to the item she missed.",
+      "ket": "KET Listening Part 1 — this is the Sample Test 1 Q4 item itself.",
+      "quests": [
+        {
+          "id": "w01q1",
+          "title": "Ten skies",
+          "sub": "Listen to the end. Every clip changes its mind.",
+          "domain": "listening"
+        },
+        {
+          "id": "w01q2",
+          "title": "Weather words",
+          "sub": "Match the word to the sky.",
+          "domain": "vocabulary"
+        },
+        {
+          "id": "w01q3",
+          "title": "It is, it isn’t",
+          "sub": "Simple present with It.",
+          "domain": "grammar"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "region": 1,
+      "title": "Was, then is — the tense flip",
+      "source": "Oxford Discover 1, Units 15 & 16 — “Percussion Instruments,” “Let’s Make Music!” (p.146, 156)",
+      "why": "“It's raining” is present continuous, and the missed item turns entirely on the handover from was to is …ing. Units 15 and 16 are the book's present-continuous pair.",
+      "ket": "Listening Parts 1 and 2, where the wrong option is almost always something that was true a moment ago.",
+      "quests": [
+        {
+          "id": "w02q1",
+          "title": "Before or now",
+          "sub": "Sort ten sentences into was and is doing.",
+          "domain": "grammar"
+        },
+        {
+          "id": "w02q2",
+          "title": "The band is playing",
+          "sub": "Percussion words, present continuous.",
+          "domain": "vocabulary"
+        },
+        {
+          "id": "w02q3",
+          "title": "Wait for the end",
+          "sub": "Six clips. The answer is never the first word.",
+          "domain": "listening"
+        }
+      ],
+      "boss": {
+        "id": "boss02",
+        "name": "The Weather Wizard",
+        "built": "He only accepts sentences that mark the time correctly — what it was this morning against what it is now.",
+        "card": "rainy"
+      }
+    },
+    {
+      "n": 3,
+      "region": 2,
+      "title": "Start the spelling log",
+      "source": "Oxford Discover Writing and Spelling 1, Spelling Master Class Units 1 & 2 (p.40, 41)",
+      "why": "Unit 1 of the Master Class is, precisely, “keep a spelling log.” Unit 2 opens the vowel-team work with a_e / ay / ai — cake, birthday, paint.",
+      "ket": "Reading & Writing Part 6 is scored on spelling alone — the right word spelt wrong scores nothing.",
+      "quests": [
+        {
+          "id": "w03q1",
+          "title": "Entry one: camera",
+          "sub": "The word that started the log.",
+          "domain": "spelling"
+        },
+        {
+          "id": "w03q2",
+          "title": "a_e, ay, ai",
+          "sub": "Three ways to write the same sound.",
+          "domain": "spelling"
+        },
+        {
+          "id": "w03q3",
+          "title": "Log check",
+          "sub": "Spell them without the letters laid out for you.",
+          "domain": "spelling"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "region": 2,
+      "title": "The many ways to write e",
+      "source": "Oxford Discover Writing and Spelling 1, Spelling Master Class Unit 4 (p.43) — e, ea, ee, ey, y",
+      "why": "The letter she skipped in camera was e. This is the book's e page: me, pea, see, key, baby.",
+      "ket": "Part 6 again, and Part 2, where a misspelt answer scores zero even when the word chosen is right.",
+      "quests": [
+        {
+          "id": "w04q1",
+          "title": "Twelve e words",
+          "sub": "Hear it, then build it.",
+          "domain": "spelling"
+        },
+        {
+          "id": "w04q2",
+          "title": "Which e?",
+          "sub": "e, ea, ee, ey or y.",
+          "domain": "spelling"
+        },
+        {
+          "id": "w04q3",
+          "title": "Camera, cold",
+          "sub": "No hints this time.",
+          "domain": "spelling"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "region": 2,
+      "title": "The quiet middle syllable",
+      "source": "Supplement — the Master Class covers e and o spellings (p.43, p.46) but has no page on unstressed vowels",
+      "why": "Cam-er-a is three syllables and the middle one is swallowed; the same trap sits in family, every, different, chocolate, favourite. She needs to know the quiet vowel is there even when she cannot hear it.",
+      "ket": "Part 6 build-the-word items are drawn from exactly this band of everyday three-syllable nouns.",
+      "supplement": true,
+      "quests": [
+        {
+          "id": "w05q1",
+          "title": "Clap the syllables",
+          "sub": "How many beats in the word?",
+          "domain": "spelling"
+        },
+        {
+          "id": "w05q2",
+          "title": "Find the quiet one",
+          "sub": "Which vowel is hiding?",
+          "domain": "spelling"
+        },
+        {
+          "id": "w05q3",
+          "title": "Write it anyway",
+          "sub": "Fifteen words with a swallowed middle.",
+          "domain": "spelling"
+        }
+      ],
+      "boss": {
+        "id": "boss05",
+        "name": "The Spelling Log",
+        "built": "Every word she has misspelt in this campaign, served back to her — starting with the one that opened the log.",
+        "card": "camera"
+      }
+    },
+    {
+      "n": 6,
+      "region": 3,
+      "title": "Opposites",
+      "source": "Oxford Discover 1, Unit 1 — Word Study: Opposites (p.6)",
+      "why": "“Not open” → “closed” is one antonym step, and it is the step she skipped when she chose PUSH THE DOOR. The book puts Opposites in its very first Word Study box.",
+      "ket": "Reading & Writing Part 1 notices are often a single word that is the opposite of the sentence you were given.",
+      "flag": "below her level",
+      "quests": [
+        {
+          "id": "w06q1",
+          "title": "Not X means Y",
+          "sub": "Twenty pairs, one step each.",
+          "domain": "vocabulary"
+        },
+        {
+          "id": "w06q2",
+          "title": "The shop again",
+          "sub": "Her exact missed item, cold.",
+          "domain": "reading"
+        },
+        {
+          "id": "w06q3",
+          "title": "Opposite or just different?",
+          "sub": "The trap is the word that repeats.",
+          "domain": "reading"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "region": 3,
+      "title": "Can’t, shouldn’t, must not",
+      "source": "Oxford Discover 1, Units 17 & 18 — “Living and Nonliving Things,” “The Gingerbread Man” (p.166, 176)",
+      "why": "She already does this well: she matched “You cannot bring your dog in here” to NO DOGS and “You must not make a noise here” to PLEASE BE QUIET, both right. Units 17 and 18 give her the grammar underneath.",
+      "ket": "Part 1 is built almost entirely from can't / shouldn't / must not phrasing.",
+      "quests": [
+        {
+          "id": "w07q1",
+          "title": "Fifteen notices",
+          "sub": "Spelt-out rules mixed with one-word signs.",
+          "domain": "reading"
+        },
+        {
+          "id": "w07q2",
+          "title": "Say the rule",
+          "sub": "Can't, shouldn't, must not.",
+          "domain": "grammar"
+        },
+        {
+          "id": "w07q3",
+          "title": "One word only",
+          "sub": "The sign never says the whole sentence.",
+          "domain": "reading"
+        }
+      ],
+      "boss": {
+        "id": "boss07",
+        "name": "The Sign Reader",
+        "built": "A wall of notices. Read each one for what it means, not for the place it belongs to.",
+        "card": "stop"
+      }
+    },
+    {
+      "n": 8,
+      "region": 4,
+      "title": "“It doesn’t say” — reading for what is absent",
+      "source": "Oxford Discover 1, Units 13 & 14 — “Using Labels to Clarify Details” and “Understanding Contrast” (p.126, 136)",
+      "why": "Given “Nina has a sister,” she answered “It doesn't say” — correct, and the hardest of the three options to choose. That instinct is worth pushing onto longer texts rather than re-teaching.",
+      "ket": "Reading & Writing Part 4, right / wrong / doesn't say, at full A2 text length.",
+      "quests": [
+        {
+          "id": "w08q1",
+          "title": "Right, wrong, doesn’t say",
+          "sub": "Three short texts.",
+          "domain": "reading"
+        },
+        {
+          "id": "w08q2",
+          "title": "Longer now",
+          "sub": "Three A2-length texts.",
+          "domain": "reading"
+        },
+        {
+          "id": "w08q3",
+          "title": "Prove it",
+          "sub": "Which line of the text told you?",
+          "domain": "reading"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "region": 4,
+      "title": "Listening Part 2, five speakers at once",
+      "source": "Oxford Discover 1, Units 11 & 12 — Simple Present questions with Does (p.106, 116)",
+      "why": "She answered the A1+ matching item correctly and was never offered a harder one. Units 11 and 12 build the question forms that Part 2 matching runs on.",
+      "ket": "KET Listening Part 2 — five speakers matched against a list, a real step up from the single-clip Part 1 items she saw.",
+      "quests": [
+        {
+          "id": "w09q1",
+          "title": "Does he? Does she?",
+          "sub": "The question forms Part 2 runs on.",
+          "domain": "grammar"
+        },
+        {
+          "id": "w09q2",
+          "title": "Five speakers",
+          "sub": "First full Part 2 set.",
+          "domain": "listening"
+        },
+        {
+          "id": "w09q3",
+          "title": "Five more",
+          "sub": "Second set. The rule still stands.",
+          "domain": "listening"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "region": 4,
+      "title": "Word study sweep",
+      "source": "Oxford Discover 1, Word Study — irregular plurals (Unit 5, p.46), compound nouns (Unit 7, p.66), adjectives (Unit 17, p.166)",
+      "why": "The Word Study boxes are the book's word-shape strand and the nearest thing in it to what Part 6 asks for. Units 7 and 17 appear earlier in this plan for their grammar; this week uses a different column of the same pages.",
+      "ket": "Reading & Writing Part 2 (best word) and Part 6 (build the word).",
+      "quests": [
+        {
+          "id": "w10q1",
+          "title": "One, then many",
+          "sub": "Irregular plurals.",
+          "domain": "vocabulary"
+        },
+        {
+          "id": "w10q2",
+          "title": "Two words, one thing",
+          "sub": "Compound nouns.",
+          "domain": "vocabulary"
+        },
+        {
+          "id": "w10q3",
+          "title": "The best word",
+          "sub": "Twenty items pitched at A2 Key.",
+          "domain": "vocabulary"
+        }
+      ],
+      "boss": {
+        "id": "boss10",
+        "name": "The Ceiling Climb",
+        "built": "One level above where the diagnostic stopped, in every skill at once. Nothing here is below A2 Key.",
+        "card": "percussion"
+      }
+    },
+    {
+      "n": 11,
+      "region": 5,
+      "title": "A full paper, timed properly",
+      "source": "Cambridge KET for Schools Sample Test 1 — the paper several diagnostic items were drawn from",
+      "why": "Everything so far has isolated one skill. This is the first time they run together under exam conditions, and the first honest read on stamina.",
+      "ket": "Direct — it is the paper.",
+      "quests": [
+        {
+          "id": "w11q1",
+          "title": "Reading & Writing",
+          "sub": "Parts 1, 2 and 4, in order.",
+          "domain": "reading"
+        },
+        {
+          "id": "w11q2",
+          "title": "Listening",
+          "sub": "Parts 1 and 2, with a minimum time per item.",
+          "domain": "listening"
+        },
+        {
+          "id": "w11q3",
+          "title": "Build the word",
+          "sub": "Part 6, scored on spelling alone.",
+          "domain": "spelling"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "region": 5,
+      "title": "Retake star quest",
+      "source": "star quest, full 20-item adaptive run",
+      "why": "Same instrument, same adaptive engine, comparable numbers. Compare ceilings first and percentages second — 85% can barely move while three ceilings rise.",
+      "ket": "Direct — it is the exam-format instrument itself.",
+      "quests": [
+        {
+          "id": "w12q1",
+          "title": "Warm the engine",
+          "sub": "Six items, one from each region.",
+          "domain": "mixed"
+        },
+        {
+          "id": "w12q2",
+          "title": "The rule, one last time",
+          "sub": "Say it out loud before you start.",
+          "domain": "listening"
+        }
+      ],
+      "boss": {
+        "id": "boss12",
+        "name": "The Summit",
+        "built": "The real star quest, unmodified, so the numbers compare honestly against 20 August.",
+        "external": "https://grammarmetric.github.io/star-quest/",
+        "card": "sunny"
+      }
+    }
+  ],
+  "badges": [
+    {
+      "id": "tense-detective",
+      "name": "Tense Detective",
+      "icon": "⛅",
+      "accent": "cyan",
+      "why": "Answer six gated listening items in a row without rushing the gate.",
+      "test": "patience"
+    },
+    {
+      "id": "vowel-hunter",
+      "name": "Vowel Hunter",
+      "icon": "🔍",
+      "accent": "yellow",
+      "why": "Three clean spelling items in a row — the quiet-vowel gap from Vowel Hollow.",
+      "test": "spellStreak"
+    },
+    {
+      "id": "sign-reader",
+      "name": "Sign Reader",
+      "icon": "🚩",
+      "accent": "magenta",
+      "why": "Read a full wall of notices with nothing wrong.",
+      "test": "signPerfect"
+    },
+    {
+      "id": "ceiling-breaker",
+      "name": "Ceiling Breaker",
+      "icon": "⛰",
+      "accent": "orange",
+      "why": "Answer four A2 items correctly in reading AND four in listening — the two ceilings the test never found.",
+      "test": "ceiling"
+    },
+    {
+      "id": "log-keeper",
+      "name": "Log Keeper",
+      "icon": "📓",
+      "accent": "yellow",
+      "why": "Beat the Spelling Log with every word it threw at you.",
+      "test": "boss05"
+    },
+    {
+      "id": "summiteer",
+      "name": "Summiteer",
+      "icon": "🏁",
+      "accent": "cyan",
+      "why": "Finish all twelve weeks and stand on the Summit.",
+      "test": "allWeeks"
+    }
+  ]
+}

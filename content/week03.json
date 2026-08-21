@@ -1,0 +1,70 @@
+{
+  "week": 3,
+  "quests": {
+    "w03q1": {
+      "intro": "This is the word that started the log. You knew it in the test — the picture, the meaning, everything. Only the middle went missing.",
+      "items": [
+        { "id": "w03-01", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "If you enjoy taking photographs, you will need this.",
+          "subprompt": "The first letter is there already. Say the word slowly before you start: cam-e-ra.",
+          "word": "camera", "pool": "amerapot",
+          "teach": "Three beats: cam-e-ra. The middle beat is the letter e. It is quiet when you say it, and it is still there when you write it." },
+        { "id": "w03-02", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "How many beats are in camera?",
+          "options": ["3 — cam-e-ra", "2 — cam-ra", "4 — ca-me-ra-a"], "answer": "3 — cam-e-ra",
+          "shuffle": false },
+        { "id": "w03-03", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?",
+          "options": ["camera", "camra", "camrea", "camora"], "answer": "camera" },
+        { "id": "w03-04", "kind": "spell", "domain": "spelling", "level": 2,
+          "prompt": "You take a photograph with a…",
+          "word": "photo", "pool": "hotof",
+          "teach": "The ph at the front says f. English does that in photo, phone and elephant." },
+        { "id": "w03-05", "kind": "spell", "domain": "spelling", "level": 2,
+          "prompt": "You look at your photos on this small screen you carry.",
+          "word": "phone", "pool": "honeai" }
+      ]
+    },
+
+    "w03q2": {
+      "intro": "Master Class Unit 2: three different ways to write one sound. Cake, birthday, paint.",
+      "items": [
+        { "id": "w03-06", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["cake", "caik", "cayk"], "answer": "cake" },
+        { "id": "w03-07", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["paint", "pante", "paynt"], "answer": "paint" },
+        { "id": "w03-08", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["birthday", "birthdai", "birthdae"], "answer": "birthday" },
+        { "id": "w03-09", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["rain", "rane", "rayn"], "answer": "rain",
+          "teach": "Rain, train, paint — ai in the middle. Day, play, away — ay at the end." },
+        { "id": "w03-10", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["play", "plai", "plae"], "answer": "play" },
+        { "id": "w03-11", "kind": "spell", "domain": "spelling", "level": 2,
+          "prompt": "A big loud noise in the sky when it storms.", "word": "thunder", "pool": "hunderao" },
+        { "id": "w03-12", "kind": "spell", "domain": "spelling", "level": 2,
+          "prompt": "You wear this when it rains.", "word": "raincoat", "pool": "aincoatye" },
+        { "id": "w03-13", "kind": "spell", "domain": "spelling", "level": 2,
+          "prompt": "The day after today.", "word": "today", "pool": "odayie" }
+      ]
+    },
+
+    "w03q3": {
+      "intro": "Same words, no letters laid out for you. Choose the right one.",
+      "items": [
+        { "id": "w03-14", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["camera", "camara", "camrea"], "answer": "camera" },
+        { "id": "w03-15", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["thunder", "thundar", "thundur"], "answer": "thunder" },
+        { "id": "w03-16", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["raincoat", "raincote", "rancoat"], "answer": "raincoat" },
+        { "id": "w03-17", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "Which spelling is right?", "options": ["today", "todai", "todey"], "answer": "today" },
+        { "id": "w03-18", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["photograph", "fotograph", "photograf"], "answer": "photograph" },
+        { "id": "w03-19", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Entry one in the log, one last time today.", "word": "camera", "pool": "amerapot" }
+      ]
+    }
+  }
+}

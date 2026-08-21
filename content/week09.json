@@ -1,0 +1,89 @@
+{
+  "week": 9,
+  "quests": {
+    "w09q1": {
+      "intro": "Part 2 runs on questions. Units 11 and 12 build them: Does he? Does she? What does she do?",
+      "items": [
+        { "id": "w09-01", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "______ she like swimming?", "options": ["Does", "Do", "Is"], "answer": "Does" },
+        { "id": "w09-02", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "What ______ your brother do at the weekend?", "options": ["does", "do", "is"], "answer": "does" },
+        { "id": "w09-03", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Does he ______ the guitar?", "options": ["play", "plays", "playing"], "answer": "play",
+          "teach": "After does, the verb loses its s. Does he play, never does he plays." },
+        { "id": "w09-04", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "“Does she live near here?” — “Yes, she ______.”",
+          "options": ["does", "do", "is"], "answer": "does" },
+        { "id": "w09-05", "kind": "choice", "domain": "grammar", "level": 3,
+          "prompt": "______ they going to the concert tonight?", "options": ["Are", "Does", "Do"], "answer": "Are",
+          "teach": "Tonight and going = present continuous, so it takes are, not do." },
+        { "id": "w09-06", "kind": "build", "domain": "grammar", "level": 3,
+          "prompt": "Build the question.",
+          "tiles": ["What", "does", "your", "sister", "like", "eating"],
+          "answer": "What does your sister like eating" },
+        { "id": "w09-07", "kind": "build", "domain": "grammar", "level": 3,
+          "prompt": "Build the question.",
+          "tiles": ["Where", "does", "he", "go", "on", "Saturdays"],
+          "answer": "Where does he go on Saturdays" }
+      ]
+    },
+
+    "w09q2": {
+      "intro": "The real step up: five speakers, one list. Each speaker gets one thing from the list, and each answer is used only once. Listen right to the end of every clip.",
+      "items": [
+        { "id": "w09-08", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "I wanted to buy a football, but they had sold out, so I got a book about space instead.",
+          "prompt": "What did the first speaker buy?",
+          "options": ["a book", "a football", "nothing"], "answer": "a book",
+          "teach": "“Instead” at the end changes the whole sentence. The football is the trap." },
+        { "id": "w09-09", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "My mum gave me some money for my birthday and I'm saving it for a bike.",
+          "prompt": "What does the second speaker want to buy?",
+          "options": ["a bike", "a birthday present", "some money"], "answer": "a bike" },
+        { "id": "w09-10", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "I usually have a sandwich for lunch, but today the shop was closed so I had soup at home.",
+          "prompt": "What did the third speaker have for lunch today?",
+          "options": ["soup", "a sandwich", "nothing"], "answer": "soup" },
+        { "id": "w09-11", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "We were going to go to the cinema, but my sister was ill, so we watched a film at her house.",
+          "prompt": "Where did the fourth speaker watch the film?",
+          "options": ["at her sister's house", "at the cinema", "they didn't watch one"],
+          "answer": "at her sister's house" },
+        { "id": "w09-12", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "It's my turn to walk the dog on Tuesdays, but this week my brother did it because I had a music lesson.",
+          "prompt": "Who walked the dog this week?",
+          "options": ["her brother", "the speaker", "nobody"], "answer": "her brother" }
+      ]
+    },
+
+    "w09q3": {
+      "intro": "Second set. The rule from Week 1 still stands: wait for the end.",
+      "items": [
+        { "id": "w09-13", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "I love painting, but at the moment I'm doing a lot of photography because I got a camera for my birthday.",
+          "prompt": "What is this speaker doing a lot of at the moment?",
+          "options": ["photography", "painting", "reading"], "answer": "photography",
+          "teach": "Painting is what she loves. Photography is what she is doing now." },
+        { "id": "w09-14", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "The concert starts at seven, but we should leave at six because the traffic is bad on Fridays.",
+          "prompt": "What time should they leave?",
+          "options": ["six o'clock", "seven o'clock", "Friday"], "answer": "six o'clock",
+          "teach": "Two times in one sentence. The question asks about leaving, not starting." },
+        { "id": "w09-15", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "My favourite subject used to be maths, but this year I like science best.",
+          "prompt": "What is her favourite subject this year?",
+          "options": ["science", "maths", "English"], "answer": "science" },
+        { "id": "w09-16", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "Take your coat. It's sunny at the moment, but the forecast says rain this afternoon.",
+          "prompt": "Why should he take a coat?",
+          "options": ["it will rain later", "it is raining now", "it is cold now"],
+          "answer": "it will rain later" },
+        { "id": "w09-17", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "There were twelve of us at the party, but three people went home early, so only nine had the cake.",
+          "prompt": "How many people had the cake?",
+          "options": ["nine", "twelve", "three"], "answer": "nine",
+          "teach": "Three numbers, and the last one is the answer. Rushing this one loses it." }
+      ]
+    }
+  }
+}

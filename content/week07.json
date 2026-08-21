@@ -1,0 +1,134 @@
+{
+  "week": 7,
+  "quests": {
+    "w07q1": {
+      "intro": "Fifteen notices. Some spell the rule out in a whole sentence; some are one word on a wall. Both mean the same thing.",
+      "items": [
+        { "id": "w07-01", "kind": "match", "domain": "reading", "level": 2,
+          "prompt": "Match each rule to its sign.",
+          "options": ["NO DOGS", "PLEASE BE QUIET", "NO ENTRY", "KEEP OFF THE GRASS", "NO PHOTOGRAPHS"],
+          "items": [
+            ["You cannot bring your dog in here.", "NO DOGS"],
+            ["You must not make a noise here.", "PLEASE BE QUIET"],
+            ["You cannot go through this door.", "NO ENTRY"],
+            ["Please do not walk on the grass.", "KEEP OFF THE GRASS"],
+            ["You must not use your camera here.", "NO PHOTOGRAPHS"]
+          ],
+          "teach": "The first two are yours from the real test — both correct. The pattern generalises." },
+        { "id": "w07-02", "kind": "match", "domain": "reading", "level": 2,
+          "prompt": "Match each rule to its sign.",
+          "options": ["NO SWIMMING", "WET FLOOR", "PUSH", "SOLD OUT", "OUT OF ORDER"],
+          "items": [
+            ["It is dangerous to swim here.", "NO SWIMMING"],
+            ["Be careful — you could slip.", "WET FLOOR"],
+            ["Do not pull this door.", "PUSH"],
+            ["There are no tickets left.", "SOLD OUT"],
+            ["This machine is not working.", "OUT OF ORDER"]
+          ] },
+        { "id": "w07-03", "kind": "match", "domain": "reading", "level": 3,
+          "prompt": "Match each rule to its sign.",
+          "options": ["NO FOOD OR DRINK", "QUEUE HERE", "EXIT", "STAFF ONLY", "CLOSED FOR LUNCH"],
+          "items": [
+            ["You cannot eat in this room.", "NO FOOD OR DRINK"],
+            ["Please wait in a line here.", "QUEUE HERE"],
+            ["This is the way out.", "EXIT"],
+            ["Only people who work here may go in.", "STAFF ONLY"],
+            ["We open again at two o'clock.", "CLOSED FOR LUNCH"]
+          ] }
+      ]
+    },
+
+    "w07q2": {
+      "intro": "Units 17 and 18 give you the grammar underneath the signs. Can't, shouldn't and must not are three different strengths.",
+      "items": [
+        { "id": "w07-04", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "It is against the rules. You ______ run beside the pool.",
+          "options": ["must not", "don't have to", "can"], "answer": "must not",
+          "teach": "Must not is a rule with teeth. It is the one signs use." },
+        { "id": "w07-05", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "It is not a good idea. You ______ eat sweets all day.",
+          "options": ["shouldn't", "mustn't", "can't"], "answer": "shouldn't",
+          "teach": "Shouldn't is advice. Nobody will stop you; it is simply not wise." },
+        { "id": "w07-06", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "It is impossible. I ______ swim — I never learnt.",
+          "options": ["can't", "mustn't", "shouldn't"], "answer": "can't",
+          "teach": "Can't is about being able to, not about being allowed to." },
+        { "id": "w07-07", "kind": "choice", "domain": "grammar", "level": 3,
+          "prompt": "NO DOGS means…",
+          "options": ["You must not bring a dog.", "You can't see any dogs.", "You shouldn't like dogs."],
+          "answer": "You must not bring a dog." },
+        { "id": "w07-08", "kind": "choice", "domain": "grammar", "level": 3,
+          "prompt": "Which sentence is a rule, not advice?",
+          "options": ["You must not smoke here.", "You shouldn't stay up late.", "You can't reach the shelf."],
+          "answer": "You must not smoke here." },
+        { "id": "w07-09", "kind": "build", "domain": "grammar", "level": 2,
+          "prompt": "Build the rule.",
+          "tiles": ["You", "must", "not", "feed", "the", "animals"],
+          "answer": "You must not feed the animals" },
+        { "id": "w07-10", "kind": "build", "domain": "grammar", "level": 3,
+          "prompt": "Build the rule.",
+          "tiles": ["You", "can't", "take", "photographs", "in", "the", "museum"],
+          "answer": "You can't take photographs in the museum" }
+      ]
+    },
+
+    "w07q3": {
+      "intro": "Real signs almost never write the whole sentence. Find the one word that carries it.",
+      "items": [
+        { "id": "w07-11", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "“You must not come in.” On a door this is usually just…",
+          "options": ["PRIVATE", "WELCOME", "DOOR"], "answer": "PRIVATE" },
+        { "id": "w07-12", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "“Be careful, the floor is slippery.” On the floor this is usually just…",
+          "options": ["CAUTION", "FLOOR", "CLEAN"], "answer": "CAUTION" },
+        { "id": "w07-13", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "“Stop your car here.” At a junction this is usually just…",
+          "options": ["STOP", "CAR", "HERE"], "answer": "STOP" },
+        { "id": "w07-14", "kind": "choice", "domain": "reading", "level": 3,
+          "prompt": "“This shop is not open at the moment.” On the window this is usually just…",
+          "options": ["CLOSED", "SHOP", "OPEN"], "answer": "CLOSED",
+          "teach": "Back to the shop. One word, and it is the opposite of the word in the sentence." },
+        { "id": "w07-15", "kind": "choice", "domain": "reading", "level": 3,
+          "prompt": "“You can leave the building through here.” Above the door this is usually just…",
+          "options": ["EXIT", "DOOR", "LEAVE"], "answer": "EXIT" },
+        { "id": "w07-16", "kind": "choice", "domain": "reading", "level": 3,
+          "prompt": "“Only people who work here may go past this point.”",
+          "options": ["STAFF ONLY", "PEOPLE", "WORK HERE"], "answer": "STAFF ONLY" }
+      ]
+    }
+  },
+
+  "boss": {
+    "id": "boss07",
+    "intro": "A wall of notices, and the Sign Reader wants all of them. Read each one for what it MEANS, not for the place it belongs to.",
+    "items": [
+      { "id": "b07-01", "kind": "choice", "domain": "reading", "level": 2,
+        "prompt": "The shop is not open now.",
+        "options": ["CLOSED", "OPEN — COME IN!", "PUSH THE DOOR"], "answer": "CLOSED",
+        "teach": "The wall starts with the one that beat you. It does not get to beat you twice." },
+      { "id": "b07-02", "kind": "choice", "domain": "reading", "level": 2,
+        "prompt": "You cannot bring your dog in here.",
+        "options": ["NO DOGS", "DOGS THIS WAY", "BEWARE OF THE DOG"], "answer": "NO DOGS" },
+      { "id": "b07-03", "kind": "choice", "domain": "reading", "level": 3,
+        "prompt": "You must not make a noise here.",
+        "options": ["PLEASE BE QUIET", "NOISY ROOM", "MUSIC INSIDE"], "answer": "PLEASE BE QUIET" },
+      { "id": "b07-04", "kind": "choice", "domain": "reading", "level": 3,
+        "prompt": "This machine has stopped working.",
+        "options": ["OUT OF ORDER", "MACHINE ROOM", "WORKING HOURS"], "answer": "OUT OF ORDER" },
+      { "id": "b07-05", "kind": "match", "domain": "reading", "level": 3,
+        "prompt": "The last five. Match them all.",
+        "options": ["NO ENTRY", "KEEP OFF THE GRASS", "SOLD OUT", "STAFF ONLY", "DO NOT DRINK"],
+        "items": [
+          ["You cannot go through here.", "NO ENTRY"],
+          ["Please do not walk here.", "KEEP OFF THE GRASS"],
+          ["There are none left to buy.", "SOLD OUT"],
+          ["Only workers past this point.", "STAFF ONLY"],
+          ["This water is not safe.", "DO NOT DRINK"]
+        ] },
+      { "id": "b07-06", "kind": "choice", "domain": "reading", "level": 3,
+        "prompt": "The café is open every day except Wednesday.",
+        "options": ["It is closed on Wednesday.", "It is open only on Wednesday.", "It never opens."],
+        "answer": "It is closed on Wednesday." }
+    ]
+  }
+}

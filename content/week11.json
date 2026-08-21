@@ -1,0 +1,103 @@
+{
+  "week": 11,
+  "quests": {
+    "w11q1": {
+      "intro": "Reading and Writing, in exam order: Part 1 notices, Part 2 best word, Part 4 right / wrong / doesn't say. No help between items.",
+      "items": [
+        { "id": "w11-01", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "Part 1. You cannot park your car here on Sundays.",
+          "options": ["NO PARKING SUNDAYS", "PARKING ALL WEEK", "CAR PARK OPEN"], "answer": "NO PARKING SUNDAYS" },
+        { "id": "w11-02", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "Part 1. The café will open again in one hour.",
+          "options": ["BACK AT 2 O'CLOCK", "CLOSED ALL DAY", "CAFÉ OPEN NOW"], "answer": "BACK AT 2 O'CLOCK" },
+        { "id": "w11-03", "kind": "choice", "domain": "reading", "level": 3,
+          "prompt": "Part 1. This door is not the way out.",
+          "options": ["NO EXIT", "EXIT", "PUSH TO OPEN"], "answer": "NO EXIT" },
+        { "id": "w11-04", "kind": "choice", "domain": "reading", "level": 3,
+          "prompt": "Part 1. Children under five do not pay.",
+          "options": ["FREE UNDER 5", "CHILDREN £5", "NO CHILDREN"], "answer": "FREE UNDER 5" },
+        { "id": "w11-05", "kind": "choice", "domain": "vocabulary", "level": 2,
+          "prompt": "Part 2. My sister ______ the violin every evening.",
+          "options": ["plays", "makes", "does"], "answer": "plays" },
+        { "id": "w11-06", "kind": "choice", "domain": "vocabulary", "level": 3,
+          "prompt": "Part 2. We ______ the bus to school every morning.",
+          "options": ["take", "make", "bring"], "answer": "take" },
+        { "id": "w11-07", "kind": "choice", "domain": "vocabulary", "level": 3,
+          "prompt": "Part 2. It was very ______ in the classroom, so I opened a window.",
+          "options": ["hot", "loud", "early"], "answer": "hot" },
+        { "id": "w11-08", "kind": "choice", "domain": "vocabulary", "level": 3,
+          "prompt": "Part 2. She is the ______ girl in her class at running.",
+          "options": ["fastest", "faster", "fast"], "answer": "fastest" },
+        { "id": "w11-09", "kind": "choice", "domain": "reading", "level": 3,
+          "passage": "Tom started learning the drums when he was six. He practises for half an hour after school on Mondays and Thursdays. Last month his band played in a concert at the town hall, and his whole family came to watch.",
+          "prompt": "Part 4. Tom practises the drums every day.",
+          "options": ["Wrong", "Right", "It doesn't say"], "answer": "Wrong", "shuffle": false },
+        { "id": "w11-10", "kind": "choice", "domain": "reading", "level": 3,
+          "passage": "Tom started learning the drums when he was six. He practises for half an hour after school on Mondays and Thursdays. Last month his band played in a concert at the town hall, and his whole family came to watch.",
+          "prompt": "Part 4. Tom is in a band.",
+          "options": ["Right", "Wrong", "It doesn't say"], "answer": "Right", "shuffle": false },
+        { "id": "w11-11", "kind": "choice", "domain": "reading", "level": 3,
+          "passage": "Tom started learning the drums when he was six. He practises for half an hour after school on Mondays and Thursdays. Last month his band played in a concert at the town hall, and his whole family came to watch.",
+          "prompt": "Part 4. Tom is the best drummer in the band.",
+          "options": ["It doesn't say", "Right", "Wrong"], "answer": "It doesn't say", "shuffle": false },
+        { "id": "w11-12", "kind": "choice", "domain": "reading", "level": 3,
+          "passage": "Tom started learning the drums when he was six. He practises for half an hour after school on Mondays and Thursdays. Last month his band played in a concert at the town hall, and his whole family came to watch.",
+          "prompt": "Part 4. Tom's family went to the concert.",
+          "options": ["Right", "Wrong", "It doesn't say"], "answer": "Right", "shuffle": false }
+      ]
+    },
+
+    "w11q2": {
+      "intro": "Listening, Parts 1 and 2. Exam conditions with one change: there is a minimum time on every item, not a maximum. You may not answer early.",
+      "items": [
+        { "id": "w11-13", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was cold and grey this morning, but the sun is out now and it's much warmer.",
+          "prompt": "What's the weather like now?",
+          "options": ["warm and sunny", "cold and grey", "raining"], "answer": "warm and sunny" },
+        { "id": "w11-14", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "The shop shuts at five, but on Thursdays it stays open until eight.",
+          "prompt": "What time does the shop shut on Thursdays?",
+          "options": ["eight o'clock", "five o'clock", "it doesn't say"], "answer": "eight o'clock" },
+        { "id": "w11-15", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "I asked for a blue one, but they only had green left, so that's what I bought.",
+          "prompt": "What colour did she buy?",
+          "options": ["green", "blue", "she didn't buy one"], "answer": "green" },
+        { "id": "w11-16", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "My lesson is usually at four, but this week it's been moved to half past three.",
+          "prompt": "What time is the lesson this week?",
+          "options": ["half past three", "four o'clock", "half past four"], "answer": "half past three" },
+        { "id": "w11-17", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "There were eight of us going, but two couldn't come, so we booked six seats.",
+          "prompt": "How many seats did they book?",
+          "options": ["six", "eight", "two"], "answer": "six" },
+        { "id": "w11-18", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "Take the second road on the left — not the first one, that's a dead end.",
+          "prompt": "Which road should he take?",
+          "options": ["the second on the left", "the first on the left", "the second on the right"],
+          "answer": "the second on the left" }
+      ]
+    },
+
+    "w11q3": {
+      "intro": "Part 6: build the word. Scored on spelling alone — the right word spelt wrong scores nothing at all.",
+      "items": [
+        { "id": "w11-19", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "If you enjoy taking photographs, you will need this.", "word": "camera", "pool": "amerapot" },
+        { "id": "w11-20", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "You go here to borrow a book.", "word": "library", "pool": "ibraryeo" },
+        { "id": "w11-21", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Your mother, father, brothers and sisters are your…", "word": "family", "pool": "amilyei" },
+        { "id": "w11-22", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "The season after summer.", "word": "autumn", "pool": "utumnei" },
+        { "id": "w11-23", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "You wear this on your head.", "word": "hat", "pool": "atei" },
+        { "id": "w11-24", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Water falling from the sky.", "word": "rain", "pool": "ainye" },
+        { "id": "w11-25", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "The meal you eat in the morning.", "word": "breakfast", "pool": "reakfastio" },
+        { "id": "w11-26", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Not the same as something else.", "word": "different", "pool": "ifferentao" }
+      ]
+    }
+  }
+}

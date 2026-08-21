@@ -1,0 +1,75 @@
+{
+  "week": 12,
+  "quests": {
+    "w12q1": {
+      "intro": "Six items, one from each place you have been. This is a warm-up, not a test — the test is the last thing you do today.",
+      "items": [
+        { "id": "w12-01", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "It was lovely and sunny this morning, but look outside now — it's raining again.",
+          "prompt": "Weather Coast. What's the weather like now?",
+          "options": ["rainy", "sunny", "windy"], "answer": "rainy",
+          "teach": "The first item of the whole campaign, and the item you lost on 20 August. Twelve weeks later." },
+        { "id": "w12-02", "kind": "spell", "domain": "spelling", "level": 3,
+          "prompt": "Vowel Hollow. If you enjoy taking photographs, you will need this.",
+          "word": "camera", "pool": "amerapot",
+          "teach": "Same word, same eight tiles, same first letter given. Nothing has been made easier." },
+        { "id": "w12-03", "kind": "choice", "domain": "reading", "level": 2,
+          "prompt": "Story Marsh. The shop is not open now.",
+          "options": ["CLOSED", "OPEN — COME IN!", "PUSH THE DOOR"], "answer": "CLOSED" },
+        { "id": "w12-04", "kind": "choice", "domain": "reading", "level": 3,
+          "passage": "Anna has a dog called Pepper. She takes him to the park before school and again after dinner. Pepper is afraid of the vacuum cleaner.",
+          "prompt": "Ceiling Peak. Anna has a cat.",
+          "options": ["It doesn't say", "Right", "Wrong"], "answer": "It doesn't say", "shuffle": false },
+        { "id": "w12-05", "kind": "build", "domain": "grammar", "level": 3,
+          "prompt": "Ceiling Peak. Build the sentence.",
+          "tiles": ["They", "played", "football", "in", "the", "park", "yesterday"],
+          "answer": "They played football in the park yesterday" },
+        { "id": "w12-06", "kind": "choice", "domain": "vocabulary", "level": 3,
+          "prompt": "The Summit. one person, three ______",
+          "options": ["people", "persons", "peoples"], "answer": "people" }
+      ]
+    },
+
+    "w12q2": {
+      "intro": "One thing left before the test. Say the rule out loud, to whoever is in the room with you.",
+      "items": [
+        { "id": "w12-07", "kind": "choice", "domain": "listening", "level": 1,
+          "prompt": "What is the rule?",
+          "options": [
+            "Wait for the end of the sentence, then answer.",
+            "Answer as fast as you can.",
+            "Choose the first word you recognise."
+          ],
+          "answer": "Wait for the end of the sentence, then answer.", "shuffle": false,
+          "teach": "Nine seconds a question is not the problem. Answering before the sentence has finished is." },
+        { "id": "w12-08", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was quiet a moment ago, but everyone is talking now.",
+          "prompt": "Is it quiet now?",
+          "options": ["No", "Yes", "It doesn't say"], "answer": "No" },
+        { "id": "w12-09", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "And the other rule. In camera, the quiet letter is…",
+          "options": ["e", "o", "a"], "answer": "e", "shuffle": false,
+          "teach": "You cannot hear it. Write it anyway." }
+      ]
+    }
+  },
+
+  "boss": {
+    "id": "boss12",
+    "external": "https://grammarmetric.github.io/star-quest/",
+    "intro": "The Summit is the real star quest — the same twenty-item adaptive test you took on 20 August, unchanged, so the two runs compare honestly. It opens in its own window. When the report appears, send the link to your teacher the same way you did last time.",
+    "compare": {
+      "date": "2026-08-20",
+      "score": "17/20",
+      "percent": 85,
+      "time": "13:07",
+      "domains": [
+        { "id": "grammar", "label": "Grammar", "right": 5, "of": 5, "secs": 48, "ceiling": "A2 Key", "capped": true },
+        { "id": "vocabulary", "label": "Vocabulary", "right": 4, "of": 5, "secs": 55, "ceiling": "A2 Key", "capped": false },
+        { "id": "reading", "label": "Reading", "right": 4, "of": 5, "secs": 26, "ceiling": "A1+ / low A2", "capped": false },
+        { "id": "listening", "label": "Listening", "right": 4, "of": 5, "secs": 9, "ceiling": "A1+ / low A2", "capped": false }
+      ],
+      "watch": "Compare ceilings first and percentages second. 85% can barely move while three ceilings rise. The one number to watch is whether listening got SLOWER."
+    }
+  }
+}

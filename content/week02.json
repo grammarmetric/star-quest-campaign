@@ -1,0 +1,155 @@
+{
+  "week": 2,
+  "quests": {
+    "w02q1": {
+      "intro": "Ten sentences. Some are about a moment that has finished. Some are about right now. Put each one where it belongs.",
+      "items": [
+        {
+          "id": "w02-01", "kind": "sort", "domain": "grammar", "level": 2,
+          "prompt": "Was it before, or is it happening now?",
+          "buckets": ["Before (was)", "Right now (is …ing)"],
+          "items": [
+            ["It was sunny at nine o'clock.", 0],
+            ["It's raining on the window.", 1],
+            ["She is playing the tambourine.", 1],
+            ["He was asleep on the bus.", 0],
+            ["The band is marching past.", 1],
+            ["We were cold this morning.", 0],
+            ["The baby is crying.", 1],
+            ["It was quiet in the library.", 0],
+            ["They are dancing now.", 1],
+            ["The shop was open yesterday.", 0]
+          ],
+          "teach": "Was and were point backwards. Is and are with …ing point at this exact second."
+        },
+        {
+          "id": "w02-01b", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Which word tells you it is happening RIGHT NOW?",
+          "options": ["is", "was", "were"], "answer": "is", "shuffle": false,
+          "teach": "Is and are belong to now. Was and were belong to before."
+        },
+        {
+          "id": "w02-01c", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "It ______ raining an hour ago, but it stopped.",
+          "options": ["was", "is", "are"], "answer": "was"
+        },
+        {
+          "id": "w02-01d", "kind": "sort", "domain": "grammar", "level": 3,
+          "prompt": "Six more. These ones are harder — the time word comes last.",
+          "buckets": ["Before (was)", "Right now (is …ing)"],
+          "items": [
+            ["The sun is shining at the moment.", 1],
+            ["We were at the beach yesterday.", 0],
+            ["She is practising right now.", 1],
+            ["It was cold last night.", 0],
+            ["They are waiting outside.", 1],
+            ["He was reading earlier.", 0]
+          ]
+        }
+      ]
+    },
+
+    "w02q2": {
+      "intro": "Units 15 and 16: percussion instruments, and the present continuous that goes with them.",
+      "items": [
+        { "id": "w02-02", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is the tambourine?",
+          "options": ["tambourine", "triangle", "cymbals"], "cards": ["199", "202", "198"], "answer": "tambourine" },
+        { "id": "w02-03", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is the xylophone?",
+          "options": ["xylophone", "snare drum", "maracas"], "cards": ["200", "201", "203"], "answer": "xylophone" },
+        { "id": "w02-04", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is the triangle?",
+          "options": ["triangle", "cymbals", "drum kit"], "cards": ["202", "198", "177"], "answer": "triangle" },
+        { "id": "w02-05", "kind": "pic-choice", "domain": "vocabulary", "level": 2,
+          "prompt": "Which one is loud?",
+          "options": ["loud", "quiet", "asleep"], "cards": ["207", "208", "250"], "answer": "loud" },
+        { "id": "w02-06", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Listen — she ______ the drum.", "options": ["is playing", "plays", "play"],
+          "answer": "is playing", "teach": "“Listen —” means it is happening now, so is + …ing." },
+        { "id": "w02-07", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Every Tuesday he ______ in the band.", "options": ["plays", "is playing", "playing"],
+          "answer": "plays", "teach": "Every Tuesday is a habit, not this second." },
+        { "id": "w02-08", "kind": "build", "domain": "grammar", "level": 2,
+          "prompt": "Build the sentence.",
+          "tiles": ["The", "children", "are", "shaking", "the", "maracas"],
+          "answer": "The children are shaking the maracas" },
+        { "id": "w02-09", "kind": "build", "domain": "grammar", "level": 3,
+          "prompt": "Build the sentence.",
+          "tiles": ["He", "was", "playing", "the", "drums", "an", "hour", "ago"],
+          "answer": "He was playing the drums an hour ago" }
+      ]
+    },
+
+    "w02q3": {
+      "intro": "Six clips. In every one, something changed. The answers stay asleep until the end.",
+      "items": [
+        { "id": "w02-10", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "The band was playing outside, but it started to rain, so now they're playing in the hall.",
+          "prompt": "Where is the band playing now?",
+          "options": ["in the hall", "outside", "on the bus"], "answer": "in the hall",
+          "teach": "Outside was true first. The rain changed it." },
+        { "id": "w02-11", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "I was playing the triangle last year, but this year I'm learning the drums.",
+          "prompt": "What is she learning this year?",
+          "options": ["the drums", "the triangle", "the piano"], "answer": "the drums" },
+        { "id": "w02-12", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was very noisy a minute ago, but everyone is quiet now because the music is starting.",
+          "prompt": "Is it noisy now?",
+          "options": ["No, it's quiet", "Yes, very noisy", "It doesn't say"], "answer": "No, it's quiet" },
+        { "id": "w02-13", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "My sister was going to play the cymbals, but she's got a cold, so I'm playing them instead.",
+          "prompt": "Who is playing the cymbals?",
+          "options": ["the speaker", "the sister", "nobody"], "answer": "the speaker",
+          "teach": "“Instead” is the turn. The plan changed at the very end of the sentence." },
+        { "id": "w02-14", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "The concert was on Friday last year. This year it's on Saturday.",
+          "prompt": "Which day is the concert this year?",
+          "options": ["Saturday", "Friday", "Sunday"], "answer": "Saturday" },
+        { "id": "w02-15", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "It's not windy now, but it was windy this morning, so the flags are still untidy.",
+          "prompt": "Is it windy now?",
+          "options": ["No", "Yes", "It doesn't say"], "answer": "No",
+          "teach": "The untidy flags are evidence of the past, not of now." }
+      ]
+    }
+  },
+
+  "boss": {
+    "id": "boss02",
+    "intro": "The Weather Wizard will not let you past until you mark the time correctly. He accepts nothing that mixes up this morning with now.",
+    "items": [
+      { "id": "b02-01", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+        "say": "It was cloudy and cold when we got up, but the sun came out at lunchtime and now it's lovely.",
+        "prompt": "What's the weather like now?",
+        "options": ["lovely and sunny", "cloudy and cold", "raining"], "answer": "lovely and sunny" },
+      { "id": "b02-02", "kind": "build", "domain": "grammar", "level": 3,
+        "prompt": "Tell the Wizard about this morning.",
+        "tiles": ["It", "was", "sunny", "this", "morning"], "answer": "It was sunny this morning" },
+      { "id": "b02-03", "kind": "build", "domain": "grammar", "level": 3,
+        "prompt": "Now tell him about right now.",
+        "tiles": ["but", "it", "is", "raining", "now"], "answer": "but it is raining now" },
+      { "id": "b02-04", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+        "say": "Don't take your coat off — it's warm in here, but it's freezing outside.",
+        "prompt": "What's it like outside?",
+        "options": ["freezing", "warm", "it doesn't say"], "answer": "freezing",
+        "teach": "Two places in one sentence, not two times. The last one is the one asked about." },
+      { "id": "b02-05", "kind": "sort", "domain": "grammar", "level": 3,
+        "prompt": "Sort these for the Wizard.",
+        "buckets": ["This morning (was)", "Now (is …ing)"],
+        "items": [
+          ["It was foggy.", 0],
+          ["It's clearing up.", 1],
+          ["The wind was strong.", 0],
+          ["The sun is shining.", 1],
+          ["It's getting colder.", 1],
+          ["It was dry.", 0]
+        ] },
+      { "id": "b02-06", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+        "say": "It rained every day last week. It hasn't rained once since Monday.",
+        "prompt": "Has it rained this week?",
+        "options": ["No", "Yes, every day", "It doesn't say"], "answer": "No",
+        "teach": "Last week and this week are two different weeks. The second sentence is the one that answers." }
+    ]
+  }
+}

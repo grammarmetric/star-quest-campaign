@@ -1,0 +1,137 @@
+{
+  "week": 1,
+  "quests": {
+    "w01q1": {
+      "intro": "Every one of these ten skies changes its mind. The first weather word you hear is true — but it is true about this morning. The answers stay asleep until the clip finishes.",
+      "items": [
+        {
+          "id": "w01-01", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was lovely and sunny this morning, but look outside now — it's raining again.",
+          "prompt": "What's the weather like now?",
+          "options": ["rainy", "sunny", "windy"], "answer": "rainy",
+          "teach": "Sunny was true three hours ago. The sentence turned around at “but look outside now”."
+        },
+        {
+          "id": "w01-02", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was really windy at breakfast. It's calm now, and the sun is out.",
+          "prompt": "What's the weather like now?",
+          "options": ["sunny", "windy", "snowy"], "answer": "sunny",
+          "teach": "Windy came first, so it is the trap. “Now” tells you which half of the sentence to keep."
+        },
+        {
+          "id": "w01-03", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It snowed all night, but this afternoon it's warm and the snow is melting.",
+          "prompt": "What's the weather like this afternoon?",
+          "options": ["warm", "snowy", "cold"], "answer": "warm",
+          "teach": "The snow is in the past — “it snowed”. The question asks about this afternoon."
+        },
+        {
+          "id": "w01-04", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "This morning it was cloudy, so I took my umbrella. Now the sky is blue and I don't need it.",
+          "prompt": "What's the sky like now?",
+          "options": ["blue", "cloudy", "grey"], "answer": "blue",
+          "teach": "The umbrella belongs to the cloudy half. Wait for “now”."
+        },
+        {
+          "id": "w01-05", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It's foggy this morning. Yesterday it was beautiful and hot.",
+          "prompt": "What's the weather like this morning?",
+          "options": ["foggy", "hot", "beautiful"], "answer": "foggy",
+          "teach": "This one flips the other way — the “now” half comes first. Waiting still works; guessing does not."
+        },
+        {
+          "id": "w01-06", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "We wanted to go to the beach, but it's too cold today. It was warm all last week.",
+          "prompt": "What's the weather like today?",
+          "options": ["cold", "warm", "rainy"], "answer": "cold",
+          "teach": "“Last week” is the past. “Today” is the question."
+        },
+        {
+          "id": "w01-07", "kind": "choice", "domain": "listening", "level": 2, "gate": "audio",
+          "say": "It was dry when we left the house, but now it's pouring and we're all wet.",
+          "prompt": "What's the weather like now?",
+          "options": ["raining hard", "dry", "snowing"], "answer": "raining hard",
+          "teach": "“Pouring” means raining hard. The clue that they are wet comes after the turn."
+        },
+        {
+          "id": "w01-08", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "It's not raining now, but it was earlier, so the road is still wet.",
+          "prompt": "Is it raining now?",
+          "options": ["No", "Yes", "It doesn't say"], "answer": "No",
+          "teach": "The wet road is left over from earlier. “Not raining now” is stated outright."
+        },
+        {
+          "id": "w01-09", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "The forecast said sunshine, but it's been grey since we woke up.",
+          "prompt": "What's the weather really like?",
+          "options": ["grey", "sunny", "windy"], "answer": "grey",
+          "teach": "What somebody said the weather would be is not what the weather is."
+        },
+        {
+          "id": "w01-10", "kind": "choice", "domain": "listening", "level": 3, "gate": "audio",
+          "say": "It was snowing when I got on the bus. By the time I got off, it had stopped and the sun was shining.",
+          "prompt": "What was the weather like at the end of the journey?",
+          "options": ["sunny", "snowy", "cloudy"], "answer": "sunny",
+          "teach": "Two moments, both in the past. The question asks about the second one — the end."
+        }
+      ]
+    },
+
+    "w01q2": {
+      "intro": "Unit 7's own listening words: weather, cloudy, sunny, windy, snowy, rainy.",
+      "items": [
+        { "id": "w01-11", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is rainy?",
+          "options": ["rainy", "sunny", "snowy"], "cards": ["098", "095", "097"], "answer": "rainy" },
+        { "id": "w01-12", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is windy?",
+          "options": ["windy", "cloudy", "sunny"], "cards": ["096", "094", "095"], "answer": "windy" },
+        { "id": "w01-13", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is cloudy?",
+          "options": ["cloudy", "snowy", "rainy"], "cards": ["094", "097", "098"], "answer": "cloudy" },
+        { "id": "w01-14", "kind": "pic-choice", "domain": "vocabulary", "level": 1,
+          "prompt": "Which one is snowy?",
+          "options": ["snowy", "windy", "sunny"], "cards": ["097", "096", "095"], "answer": "snowy" },
+        { "id": "w01-15", "kind": "pic-choice", "domain": "vocabulary", "level": 2,
+          "prompt": "It's cold and you can see your breath. Which one?",
+          "options": ["cold", "sunny", "autumn"], "cards": ["227", "095", "087"], "answer": "cold" },
+        { "id": "w01-16", "kind": "pic-choice", "domain": "vocabulary", "level": 2,
+          "prompt": "The leaves are falling. Which season?",
+          "options": ["autumn", "spring", "winter"], "cards": ["087", "089", "090"], "answer": "autumn" },
+        { "id": "w01-17", "kind": "choice", "domain": "vocabulary", "level": 2,
+          "prompt": "In winter it often ______.",
+          "options": ["snows", "snow", "snowing"], "answer": "snows",
+          "teach": "Simple present with It takes an s: it snows, it rains, it blows." },
+        { "id": "w01-18", "kind": "choice", "domain": "vocabulary", "level": 2,
+          "prompt": "Which word is NOT a weather word?",
+          "options": ["hungry", "cloudy", "windy", "foggy"], "answer": "hungry" }
+      ]
+    },
+
+    "w01q3": {
+      "intro": "Simple present with It — including the negative, exactly as Unit 7 teaches it: “It doesn't snow in the summer.”",
+      "items": [
+        { "id": "w01-19", "kind": "choice", "domain": "grammar", "level": 1,
+          "prompt": "It ______ in the summer here.", "options": ["doesn't snow", "don't snow", "not snow"],
+          "answer": "doesn't snow", "teach": "It takes doesn't, never don't." },
+        { "id": "w01-20", "kind": "choice", "domain": "grammar", "level": 1,
+          "prompt": "______ it rain a lot in April?", "options": ["Does", "Do", "Is"], "answer": "Does" },
+        { "id": "w01-21", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Look outside — it ______ right now.", "options": ["is raining", "rains", "rain"],
+          "answer": "is raining", "teach": "Happening right now takes is + …ing. This is the pattern Week 2 lives in." },
+        { "id": "w01-22", "kind": "choice", "domain": "grammar", "level": 2,
+          "prompt": "Every winter it ______ here.", "options": ["snows", "is snowing", "snowing"],
+          "answer": "snows", "teach": "Every winter means it happens again and again — simple present." },
+        { "id": "w01-23", "kind": "build", "domain": "grammar", "level": 2,
+          "prompt": "Build the sentence.",
+          "tiles": ["It", "is", "very", "windy", "today"], "answer": "It is very windy today" },
+        { "id": "w01-24", "kind": "build", "domain": "grammar", "level": 2,
+          "prompt": "Build the sentence.",
+          "tiles": ["It", "doesn't", "rain", "in", "the", "desert"], "answer": "It doesn't rain in the desert" },
+        { "id": "w01-25", "kind": "choice", "domain": "grammar", "level": 3,
+          "prompt": "It was sunny this morning, but now it ______.", "options": ["is raining", "rained", "rains"],
+          "answer": "is raining", "teach": "The whole week in one sentence: was for this morning, is …ing for now." }
+      ]
+    }
+  }
+}

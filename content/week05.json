@@ -1,0 +1,117 @@
+{
+  "week": 5,
+  "supplement": true,
+  "quests": {
+    "w05q1": {
+      "intro": "Say each word out loud and clap the beats. Cam-e-ra is three claps, even though it sounds like two when you say it fast.",
+      "items": [
+        { "id": "w05-01", "kind": "choice", "domain": "spelling", "level": 2, "say": "camera",
+          "prompt": "How many beats in camera?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false,
+          "teach": "cam - e - ra. Say it slowly like a robot and the quiet beat comes back." },
+        { "id": "w05-02", "kind": "choice", "domain": "spelling", "level": 2, "say": "family",
+          "prompt": "How many beats in family?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false },
+        { "id": "w05-03", "kind": "choice", "domain": "spelling", "level": 2, "say": "chocolate",
+          "prompt": "How many beats in chocolate?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false,
+          "teach": "choc - o - late. Almost everybody says it in two, and it is written in three." },
+        { "id": "w05-04", "kind": "choice", "domain": "spelling", "level": 2, "say": "different",
+          "prompt": "How many beats in different?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false },
+        { "id": "w05-05", "kind": "choice", "domain": "spelling", "level": 2, "say": "every",
+          "prompt": "How many beats in every?", "options": ["3", "2", "1"], "answer": "3", "shuffle": false,
+          "teach": "ev - er - y. You almost certainly say it in two. Write it in three." },
+        { "id": "w05-06", "kind": "choice", "domain": "spelling", "level": 3, "say": "vegetable",
+          "prompt": "How many beats in vegetable?", "options": ["4", "3", "2"], "answer": "4", "shuffle": false },
+        { "id": "w05-07", "kind": "choice", "domain": "spelling", "level": 3, "say": "favourite",
+          "prompt": "How many beats in favourite?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false },
+        { "id": "w05-08", "kind": "choice", "domain": "spelling", "level": 3, "say": "elephant",
+          "prompt": "How many beats in elephant?", "options": ["3", "2", "4"], "answer": "3", "shuffle": false }
+      ]
+    },
+
+    "w05q2": {
+      "intro": "In each of these words one vowel has gone quiet. Find it — and remember it is still written down.",
+      "items": [
+        { "id": "w05-09", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "cam _ ra — which letter is hiding?", "options": ["e", "o", "a", "u"], "answer": "e" },
+        { "id": "w05-10", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "fam _ ly — which letter is hiding?", "options": ["i", "e", "o", "a"], "answer": "i" },
+        { "id": "w05-11", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "choc _ late — which letter is hiding?", "options": ["o", "a", "e", "u"], "answer": "o" },
+        { "id": "w05-12", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "diff _ rent — which letter is hiding?", "options": ["e", "a", "i", "o"], "answer": "e" },
+        { "id": "w05-13", "kind": "choice", "domain": "spelling", "level": 2,
+          "prompt": "ev _ ry — which letter is hiding?", "options": ["e", "a", "i", "o"], "answer": "e" },
+        { "id": "w05-14", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "veg _ table — which letter is hiding?", "options": ["e", "i", "a", "o"], "answer": "e" },
+        { "id": "w05-15", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "fav _ urite — which letter is hiding?", "options": ["o", "e", "a", "i"], "answer": "o" },
+        { "id": "w05-16", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "int _ resting — which letter is hiding?", "options": ["e", "a", "i", "o"], "answer": "e" },
+        { "id": "w05-17", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which one of these has NO quiet middle vowel?",
+          "options": ["rabbit", "camera", "family", "chocolate"], "answer": "rabbit",
+          "teach": "Rab-bit: you hear both beats clearly. That is why it is easy to spell." }
+      ]
+    },
+
+    "w05q3": {
+      "intro": "Fifteen words with a swallowed middle. Write the quiet letter first, then say the whole word.",
+      "items": [
+        { "id": "w05-18", "kind": "spell", "domain": "spelling", "level": 3, "say": "camera",
+          "prompt": "Build it.", "word": "camera", "pool": "amerapo" },
+        { "id": "w05-19", "kind": "spell", "domain": "spelling", "level": 3, "say": "family",
+          "prompt": "Build it.", "word": "family", "pool": "amilye" },
+        { "id": "w05-20", "kind": "spell", "domain": "spelling", "level": 3, "say": "every",
+          "prompt": "Build it.", "word": "every", "pool": "verya" },
+        { "id": "w05-21", "kind": "spell", "domain": "spelling", "level": 3, "say": "different",
+          "prompt": "Build it.", "word": "different", "pool": "ifferenta" },
+        { "id": "w05-22", "kind": "spell", "domain": "spelling", "level": 3, "say": "chocolate",
+          "prompt": "Build it.", "word": "chocolate", "pool": "hocolatea" },
+        { "id": "w05-23", "kind": "spell", "domain": "spelling", "level": 3, "say": "favourite",
+          "prompt": "Build it.", "word": "favourite", "pool": "avouritei" },
+        { "id": "w05-24", "kind": "spell", "domain": "spelling", "level": 3, "say": "elephant",
+          "prompt": "Build it.", "word": "elephant", "pool": "lephanti" },
+        { "id": "w05-25", "kind": "spell", "domain": "spelling", "level": 3, "say": "library",
+          "prompt": "Build it.", "word": "library", "pool": "ibrarye" },
+        { "id": "w05-26", "kind": "spell", "domain": "spelling", "level": 3, "say": "holiday",
+          "prompt": "Build it.", "word": "holiday", "pool": "olidaye" },
+        { "id": "w05-27", "kind": "spell", "domain": "spelling", "level": 3, "say": "banana",
+          "prompt": "Build it.", "word": "banana", "pool": "ananao" },
+        { "id": "w05-28", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["different", "diffrent", "differant"], "answer": "different" },
+        { "id": "w05-29", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["chocolate", "choclate", "chocolat"], "answer": "chocolate" },
+        { "id": "w05-30", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["favourite", "favorite", "favrite"], "answer": "favourite",
+          "teach": "British spelling keeps the u: fav-ou-rite. Cambridge accepts both, but pick one and stay with it." },
+        { "id": "w05-31", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["interesting", "intresting", "intersting"], "answer": "interesting" },
+        { "id": "w05-32", "kind": "choice", "domain": "spelling", "level": 3,
+          "prompt": "Which spelling is right?", "options": ["vegetable", "vegtable", "vegetible"], "answer": "vegetable" }
+      ]
+    }
+  },
+
+  "boss": {
+    "id": "boss05",
+    "intro": "The Spelling Log opens itself and reads out every word you have ever got wrong here. Beat it and the log closes.",
+    "dynamic": "weak",
+    "items": [
+      { "id": "b05-01", "kind": "spell", "domain": "spelling", "level": 3,
+        "prompt": "Entry one. You already know this one.",
+        "word": "camera", "pool": "amerapot",
+        "teach": "This is the exact pile of letters from the real test: c is given, and a m e r a p o t are the tiles." },
+      { "id": "b05-02", "kind": "spell", "domain": "spelling", "level": 3, "say": "family",
+        "prompt": "Entry two.", "word": "family", "pool": "amilyei" },
+      { "id": "b05-03", "kind": "spell", "domain": "spelling", "level": 3, "say": "chocolate",
+        "prompt": "Entry three.", "word": "chocolate", "pool": "hocolateai" },
+      { "id": "b05-04", "kind": "choice", "domain": "spelling", "level": 3,
+        "prompt": "The log wants the right one.", "options": ["different", "diffrent", "diferent"], "answer": "different" },
+      { "id": "b05-05", "kind": "spell", "domain": "spelling", "level": 3, "say": "every",
+        "prompt": "Entry five.", "word": "every", "pool": "veryai" },
+      { "id": "b05-06", "kind": "choice", "domain": "spelling", "level": 3,
+        "prompt": "Last one. Which spelling is right?",
+        "options": ["camera", "camra", "camora", "camrea"], "answer": "camera",
+        "teach": "The word that opened the log, closing it." }
+    ]
+  }
+}
