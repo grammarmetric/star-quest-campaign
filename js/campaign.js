@@ -327,22 +327,28 @@
        as backdrop art behind the UI. Removes itself if the image is not
        shipped, so the page never shows a broken frame. */
     if (r.poster) {
-      var pd = document.createElement('details');
-      pd.className = 'week';
-      var psum = document.createElement('summary');
-      psum.textContent = 'Open the Discover poster for this region';
-      psum.style.cursor = 'pointer';
-      psum.style.fontWeight = '500';
-      pd.appendChild(psum);
+      var slot = el('div');
+      wrap.appendChild(slot);
       var pimg = document.createElement('img');
       pimg.alt = 'Oxford Discover poster for ' + r.name;
-      pimg.src = 'assets/posters/' + r.poster + '.jpg';
       pimg.style.width = '100%';
       pimg.style.marginTop = '12px';
       pimg.style.borderRadius = 'var(--gm-radius-control)';
-      pimg.addEventListener('error', function () { pd.remove(); });
-      pd.appendChild(pimg);
-      wrap.appendChild(pd);
+      /* Build the panel only once the image has actually decoded. Rendering it
+         first and removing it on error flashes a control that then vanishes --
+         and over a slow connection she can tap it before it goes. */
+      pimg.addEventListener('load', function () {
+        var pd = document.createElement('details');
+        pd.className = 'week';
+        var psum = document.createElement('summary');
+        psum.textContent = 'Open the Discover poster for this region';
+        psum.style.cursor = 'pointer';
+        psum.style.fontWeight = '500';
+        pd.appendChild(psum);
+        pd.appendChild(pimg);
+        slot.appendChild(pd);
+      });
+      pimg.src = 'assets/posters/' + r.poster + '.jpg';
     }
 
     var list = el('div', 'weeklist');
